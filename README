@@ -1,0 +1,16 @@
+* DtsEdit
+
+オリジナル
+http://seraphy.fam.cx/~seraphy/index.shtml
+保守?
+http://svn.sourceforge.jp/svnroot/rec10/tstools/DtsEdit
+patch for linux?
+http://rduck.web.fc2.com/
+
+このファイル群は、上記サイトの情報を元に、linux でコンパイル出来るよう、
+上記パッチをあて、少々手を加えたものです。
+ソースコードは utf-8 (nkf -w -Lu *.cpp *.h) です。
+
+svn co https://gpac.svn.sourceforge.net/svnroot/gpac/trunk/gpac
+svn co http://svn.sourceforge.jp/svnroot/rec10/tstools/DtsEdit
+wget http://rduck.web.fc2.com/DtsEdit_20081009_patch.tar.bz2
